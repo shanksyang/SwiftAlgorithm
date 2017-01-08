@@ -35,4 +35,14 @@ func quickSort(_ input: [Int]) -> [Int] {
 var input: [Int] = [1, 21, 3, 10, 44]
 var result = quickSort(input)
 result
+
+
+func quickSort2(_ input: [Int], l: Int, r: Int) {
+    
+}
+
+func push2(_ s: inout [Int], _ l: Int, _ r: Int) {
+    s.insert(r, at: 0)
+    s.insert(l, at: 0)
+}
 //: [Next](@next)
